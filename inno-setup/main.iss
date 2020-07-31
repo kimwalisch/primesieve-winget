@@ -1,6 +1,6 @@
 #include "environment.iss"
 
-#define MyAppName "primesieve"
+#define MyAppName "Primesieve"
 #define MyAppVersion "7.5"
 #define MyAppPublisher "Kim Walisch"
 #define MyAppURL "https://github.com/kimwalisch/primesieve"
@@ -24,7 +24,7 @@ LicenseFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setu
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup
-OutputBaseFilename=primesieve-{#MyAppVersion}-win64
+OutputBaseFilename={#MyAppName}-{#MyAppVersion}-win64
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
