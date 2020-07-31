@@ -53,4 +53,3 @@ begin
     if CurUninstallStep = usPostUninstall
     then EnvRemovePath(ExpandConstant('{app}') +'\bin');
 end;
-
