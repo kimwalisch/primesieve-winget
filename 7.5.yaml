@@ -7,7 +7,7 @@ License: BSD 2-Clause
 LicenseUrl: https://raw.githubusercontent.com/kimwalisch/primesieve/master/COPYING
 Homepage: https://github.com/kimwalisch/primesieve
 Description: Fast prime number generator
-Tags: "primes,prime numbers,math,cli,command-line,command line"
+Tags: "primes, prime numbers, math, cli, command-line, command line, utility, tool"
 Installers:
   - Arch: x64
     InstallerType: inno
