@@ -1,0 +1,15 @@
+Id: Primesieve.Primesieve
+Name: Primesieve
+Version: 7.5
+Publisher: Primesieve
+AppMoniker: primesieve
+License: BSD 2-Clause
+LicenseUrl: https://raw.githubusercontent.com/kimwalisch/primesieve/master/COPYING
+Homepage: https://github.com/kimwalisch/primesieve
+Description: Fast prime number generator
+Tags: "primes,prime numbers,math,cli,command-line,command line"
+Installers:
+  - Arch: x64
+    InstallerType: inno
+    Url: https://github.com/kimwalisch/primesieve-winget/releases/download/v7.5/Primesieve-7.5-win64.exe
+    Sha256: F5D09BF22C02B92839120ECA3C4E5A7F4EDA65504CE50DF6F0DB0C14E33AC6A2
