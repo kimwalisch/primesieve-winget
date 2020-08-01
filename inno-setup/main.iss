@@ -18,7 +18,8 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
-UninstallDisplayIcon={app}\primesieve.ico 
+SetupIconFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve.ico
+UninstallDisplayIcon={app}\primesieve.ico
 DisableProgramGroupPage=yes
 LicenseFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win64-console\COPYING
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
