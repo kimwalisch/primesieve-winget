@@ -17,4 +17,4 @@ Installers:
   - Arch: x64
     InstallerType: Inno
     Url: https://github.com/kimwalisch/primesieve-winget/releases/download/v7.6/Primesieve-7.6-win-x64.exe
-    Sha256: 6c37ec7a7590b401a83caae919fccf3c2d1de784db62788bfa3f3b7898a4e1d5
+    Sha256: 9285469c88a8ccd06534bdc756bcd587d9074c9b3040ffe301dad0fd7b74a11b
