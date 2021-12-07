@@ -1,0 +1,20 @@
+Id: Primesieve.Primesieve
+Publisher: Primesieve
+Name: Primesieve
+Version: 7.7
+AppMoniker: primesieve
+MinOSVersion: 10.0.0.0
+License: BSD 2-Clause
+LicenseUrl: https://raw.githubusercontent.com/kimwalisch/primesieve/master/COPYING
+Homepage: https://github.com/kimwalisch/primesieve
+Description:
+  primesieve is a command-line program that generates primes
+  using the sieve of Eratosthenes algorithm. It can generate
+  primes and prime k-tuplets (twin primes, prime triplets, ...)
+  up to 2^64 and find the nth prime.
+Tags: "primes, prime numbers, sieve, eratosthenes, math, command-line, utility, tool"
+Installers:
+  - Arch: x64
+    InstallerType: Inno
+    Url: https://github.com/kimwalisch/primesieve-winget/releases/download/v7.7/Primesieve-7.7-win-x64.exe
+    Sha256: 06380b26f63fb2bed3a66271d9f1f94ba0aca47004bc84a2b269f9a3ea07e88d
