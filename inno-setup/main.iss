@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "Primesieve"
-#define MyAppVersion "8.0"
+#define MyAppVersion "11.0"
 #define MyAppPublisher "Kim Walisch"
 #define MyAppURL "https://github.com/kimwalisch/primesieve"
 #define MyAppExeName "primesieve.exe"
@@ -18,13 +18,13 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
-SetupIconFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve.ico
+SetupIconFile=C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve.ico
 UninstallDisplayIcon={app}\primesieve.ico
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\COPYING
+LicenseFile=C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\COPYING
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup
+OutputDir=C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-win-x64
 Compression=lzma
 SolidCompression=yes
@@ -36,10 +36,10 @@ ChangesEnvironment=true
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\primesieve.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\kimwa\OneDrive\Documents\GitHub\primesieve-winget\inno-setup\primesieve.ico"; DestDir: "{app}"
+Source: "C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\primesieve.exe"; DestDir: "{app}\bin"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\COPYING"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve-{#MyAppVersion}-win-x64\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\kimwa\Documents\GitHub\primesieve-winget\inno-setup\primesieve.ico"; DestDir: "{app}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Code]
