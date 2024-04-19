@@ -1,7 +1,7 @@
 #include "environment.iss"
 
 #define MyAppName "Primesieve"
-#define MyAppVersion "12.1"
+#define MyAppVersion "12.3"
 #define MyAppPublisher "Kim Walisch"
 #define MyAppURL "https://github.com/kimwalisch/primesieve"
 #define MyAppExeName "primesieve.exe"
